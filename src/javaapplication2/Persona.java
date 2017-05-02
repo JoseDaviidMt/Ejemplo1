@@ -10,15 +10,15 @@ package javaapplication2;
  * @author Sena
  */
 public class Persona {
-   private Carro carr;
+   private Carro carro1;
    private String id;
    private String tallaCamisa;
    private int edad;
-   public void setCarr(Carro carrP){
-    this.carr=carrP;
+   public void setCarr(Carro carro1P){
+    this.carro1=carro1P;
     }
-   public Carro getCarr(){
-    return carr;
+   public Carro getCarro1(){
+    return carro1;
     }
     
     public void setId(String idP){
