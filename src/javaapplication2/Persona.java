@@ -11,7 +11,7 @@ package javaapplication2;
  */
 public class Persona {
    private Carro carr;
-   private String id;
+   private String identificacion;
    private String tallaCamisa;
    private int edad;
    public void setCarr(Carro carrP){
@@ -21,12 +21,7 @@ public class Persona {
     return carr;
     }
     
-    public void setId(String idP){
-    this.id=idP;
-    }
-    public String getId(){
-    return this.id;
-    }
+   
     public void caminar(){
         System.out.println("Estoy Caminando");
     }
